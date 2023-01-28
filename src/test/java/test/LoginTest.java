@@ -16,13 +16,13 @@ public class LoginTest {
 		
 		driver = BrowserFactory.init();
 		
-		/*LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
 		loginPage.insertUserName("demo@techfios.com");
 		loginPage.insertPassword("abc123");
 		loginPage.clickSignInButton();
 		
 		DashboardPage dashboardPage = PageFactory.initElements(driver, DashboardPage.class);
-		dashboardPage.verifyDashboardPage("Dashboard");*/
+		dashboardPage.verifyDashboardPage("Dashboard");
 	}
 
 }
